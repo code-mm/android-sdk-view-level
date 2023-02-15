@@ -26,6 +26,13 @@ android {
     }
 }
 
+android.libraryVariants.all{
+    variant -> variant.outputs.all {
+        outputFileName = "android-sdk-view-level.aar"
+    }
+}
+
+
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.6.1'

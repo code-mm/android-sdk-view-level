@@ -12,6 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "android-sdk-view-floathorizon"
+rootProject.name = "android-sdk-view-level"
 include ':app'
 include ':sdk'
